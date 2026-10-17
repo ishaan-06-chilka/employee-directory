@@ -1,0 +1,19 @@
+# Java and Maven
+**/target/
+**/.mvn/wrapper/maven-wrapper.jar
+
+# React
+**/node_modules/
+**/dist/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
+
+# Keep database credentials private
+EmployeeDirectoryProject/employee-directory/src/main/resources/application.properties
